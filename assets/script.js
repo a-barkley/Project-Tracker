@@ -6,6 +6,7 @@ var lead = $('.lead')
 var input = $('input')
 var projectType = $('#projectType')
 var projectName = $('#projectName')
+var submit = $('#submit')
 
 setInterval(function () {
     var date = Date($.now());
@@ -15,5 +16,9 @@ setInterval(function () {
 
 var inputValue = input.val()
 
-    .submit(projectType.val();
-projectName.val())
+submit.submit(projectType.val());
+projectName.val()
+
+$(function () {
+    $("#date").datepicker();
+});
