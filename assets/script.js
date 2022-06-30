@@ -15,5 +15,5 @@ setInterval(function () {
 
 var inputValue = input.val()
 
-    .submit(projectType.val();
-projectName.val())
+    .submit(projectType.val());
+projectName.val()
